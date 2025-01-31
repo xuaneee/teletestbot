@@ -8,3 +8,6 @@ A simple echo bot that runs 24/7 using Firebase Cloud Functions.
    ```bash
    firebase functions:config:set telegram.token="YOUR_BOT_TOKEN"
    firebase deploy --only functions
+3. **Set webhook**:
+   ```bash
+   curl "https://api.telegram.org/bot<TELEGRAM_TOKEN>/setWebhook?url=<FIREBASE_FUNCTION_URL>"
