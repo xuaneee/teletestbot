@@ -1,0 +1,6 @@
+# Firebase
+.firebase/
+functions/__pycache__/
+
+# Environment variables
+.env
